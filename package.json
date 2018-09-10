@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-firebase-authentication",
-  "description": "Gatsby Firebase Authentication",
+  "name": "six-minute-morning",
+  "description": "productivity",
   "version": "1.0.0",
-  "author": "Robin Wieruch <wrobin@gmx.net>",
+  "author": "Tanner Gaucher <tannermichaelgaucher@gmail.com>",
   "dependencies": {
     "dotenv": "^6.0.0",
     "firebase": "^5.0.4",
@@ -16,7 +16,8 @@
     "gatsby-transformer-sharp": "^1.6.27",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "rebass": "^2.3.2"
   },
   "keywords": [
     "gatsby"

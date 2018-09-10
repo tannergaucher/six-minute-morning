@@ -5,12 +5,12 @@ import Link from 'gatsby-link'
 
 import { Arrow } from 'rebass'
 
-const StyledArrows = styled.div`
+const StyledArrowsWrapper = styled.div`
   z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 99vw;
+  width: 95%;
   position: absolute;
   top: 50%;
 
@@ -34,14 +34,14 @@ const RightArrow = styled(Arrow)`
 `
 
 const Arrows = props => (
-  <StyledArrows>
+  <StyledArrowsWrapper>
     <Link to={props.back}>
       <LeftArrow direction="down" />
     </Link>
     <Link to={props.forward}>
       <RightArrow direction="down" />
     </Link>
-  </StyledArrows>
+  </StyledArrowsWrapper>
 )
 
 export default Arrows
